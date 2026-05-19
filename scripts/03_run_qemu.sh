@@ -50,7 +50,7 @@ exec qemu-system-x86_64 \
   -append "console=ttyS0 quiet STUDENT_ID=${STUDENT_ID}" \
   -m 512M \
   -smp "$(nproc)" \
-  -enable-kvm 2>/dev/null || \
+   2>/dev/null || \
 qemu-system-x86_64 \
   -nographic \
   -no-reboot \
