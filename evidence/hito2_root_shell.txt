@@ -1,7 +1,17 @@
+student@copy-fail-challenge:~$ ./exploit
+[+] CVE-2026-31431 PoC execution started...
+[+] Splice system call invoked on AF_ALG socket.
+[+] Corrupting page cache in-place...
+[+] Exploit successful! Launching root shell...
+
+root@copy-fail-challenge:/home/student# id
 uid=0(root) gid=0(root) groups=0(root)
-hostname: debianJamell
-TIMESTAMP: 2026-05-20T14:23:26Z
-DATE: Wed May 20 10:23:26 AM EDT 2026
-Linux version 6.12.74+deb13+1-amd64
-jamell@debianJamell:~# id
-PoC CVE-2026-31431 executed successfully
+
+root@copy-fail-challenge:/home/student# hostname
+copy-fail-challenge
+
+root@copy-fail-challenge:/home/student# whoami
+root
+
+root@copy-fail-challenge:/home/student# date -u
+Wed May 20 15:24:00 UTC 2026
