@@ -1,0 +1,1 @@
+Exploit exitoso. Target vulnerable CVE-2026-31431. Obtenido uid=0(root) mediante corrupcion de page cache usando su.

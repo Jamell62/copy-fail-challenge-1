@@ -1,0 +1,1 @@
+Kernel compilado exitosamente aplicando fix_algif_aead.patch. Nueva version bzImage_patched generada y protegida contra deadlocks.
