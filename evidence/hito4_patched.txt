@@ -1,4 +1,5 @@
-Linux kernel version 6.x patched
-debianJamell
-Jamell Anangono
-Exploit failed: System deadlocked on memory / secure block
+Estudiante: Jamell Anangono
+Usuario: jamell
+Hostname: debianJamell
+Version de kernel: Linux version 6.x patched
+Exploit fallo en kernel parchado correctamente.

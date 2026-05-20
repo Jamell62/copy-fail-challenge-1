@@ -1,3 +1,3 @@
-algif_aead
-debianJamell
-Exploit failed: Connection refused or module missing
+Modulo removido: algif_aead
+Hostname: debianJamell
+Exploit fallo post-mitigacion exitosamente.
