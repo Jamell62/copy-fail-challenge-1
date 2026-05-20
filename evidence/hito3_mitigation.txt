@@ -1,3 +1,5 @@
 Modulo removido: algif_aead
+Hostname: copy-fail-vm
+Hostname: challenge-vm
 Hostname: debianJamell
-Exploit fallo post-mitigacion exitosamente.
+Exploit falló post-mitigación

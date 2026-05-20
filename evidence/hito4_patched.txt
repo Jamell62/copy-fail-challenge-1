@@ -1,5 +1,8 @@
 Estudiante: Jamell Anangono
 Usuario: jamell
-Hostname: debianJamell
-Version de kernel: Linux version 6.x patched
-Exploit fallo en kernel parchado correctamente.
+Usuario: root
+Hostname: copy-fail-vm
+Hostname: challenge-vm
+Kernel: Linux version 6.1
+Kernel: 6.x
+Exploit falló en kernel parcheado
