@@ -1,8 +1,7 @@
-Jamell Anangono
-student
-jamell
-uid=1000(jamell) gid=1000(jamell)
+Estudiante: Jamell Anangono
+Usuario: jamell
 hostname: copy-fail-jamell
 hostname: copy-fail-anangono
-Linux version 6.x patched
-Exploit failed on patched kernel
+Linux version 6.x
+Kernel Linux 6.x corriendo en QEMU
+Exploit falló en kernel parcheado

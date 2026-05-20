@@ -1,0 +1,4 @@
+uid=0(root) gid=0(root) groups=0(root)
+hostname: copy-fail-jamell
+hostname: copy-fail-anangono
+PoC CVE-2026-31431 executed successfully
