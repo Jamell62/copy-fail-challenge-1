@@ -1,1 +1,3 @@
-sudo rmmod algif_aead
+algif_aead
+debianJamell
+Exploit failed: Connection refused or module missing

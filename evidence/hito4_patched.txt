@@ -1,1 +1,4 @@
-Kernel compilado exitosamente aplicando fix_algif_aead.patch. Nueva version bzImage_patched generada y protegida contra deadlocks.
+Linux kernel version 6.x patched
+debianJamell
+Jamell Anangono
+Exploit failed: System deadlocked on memory / secure block
