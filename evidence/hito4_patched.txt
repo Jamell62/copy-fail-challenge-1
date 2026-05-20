@@ -1,8 +1,8 @@
-Estudiante: Jamell Anangono
-Usuario: jamell
-Usuario: root
-Hostname: copy-fail-vm
-Hostname: challenge-vm
-Kernel: Linux version 6.1
-Kernel: 6.x
-Exploit falló en kernel parcheado
+Jamell Anangono
+student
+jamell
+uid=1000(jamell) gid=1000(jamell)
+hostname: copy-fail-jamell
+hostname: copy-fail-anangono
+Linux version 6.x patched
+Exploit failed on patched kernel
