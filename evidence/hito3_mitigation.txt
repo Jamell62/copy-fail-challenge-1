@@ -1,6 +1,8 @@
 === HITO 3: MITIGACIÓN TEMPORAL ===
-Fecha: Tue May 19 22:45:00 UTC 2026
+Fecha: Thu May 21 23:05:00 UTC 2026
 Hostname: copy-fail-Jamell-Anangono
-Comando: rmmod algif_aead
-Estado: Módulo descargado y bloqueado en /etc/modprobe.d/disable-algif.conf
-Resultado: El socket AF_ALG ya no puede invocar la interfaz AEAD, neutralizando el exploit.
+Kernel: 6.12.0
+Mitigación aplicada: algif_aead compilado built-in, mitigación via blacklist
+Comando: echo "install algif_aead /bin/false" > /etc/modprobe.d/disable-algif.conf
+algif_aead en lsmod: módulos built-in en este kernel (no loadable modules)
+Intento exploit post-mitigación: exploit falla sin /dev/urandom disponible
