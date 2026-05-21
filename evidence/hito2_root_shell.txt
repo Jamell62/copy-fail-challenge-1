@@ -1,7 +1,6 @@
 === HITO 2: EXPLOIT EXITOSO ===
-Fecha: Tue May 19 22:35:12 UTC 2026
+Fecha: Thu May 21 22:59:08 UTC 2026
 Hostname: copy-fail-Jamell-Anangono
-Identidad POST-exploit: uid=0(root) gid=1001(student) groups=1001(student)
 Kernel: 6.12.0
-Mecanismo: Explotación exitosa a través de AF_ALG + splice en /usr/bin/su sin modificar el disco (Page Cache bypass).
-Resultado: root shell obtenido de forma interactiva.
+Identidad POST-exploit: uid=0(root) gid=0(root) euid=1000
+CVE-2026-31431 explotado exitosamente via AF_ALG authencesn
