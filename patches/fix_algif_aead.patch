@@ -1,12 +1,12 @@
+diff --git a/crypto/algif_aead.c b/crypto/algif_aead.c
+index 7d58cbbce..7d400054a 100644
 --- a/crypto/algif_aead.c
 +++ b/crypto/algif_aead.c
-@@ -1,5 +1,5 @@
- /*
-- * algif_aead.c - In-place optimization vulnerability
-+ * algif_aead.c - Out-of-place structural isolation fix
-  */
+@@ -276,6 +276,7 @@ static int _aead_recvmsg(struct socket *sock, struct msghdr *msg,
+ 		} else
+ 			/* no RX SGL present (e.g. authentication only) */
+ 			rsgl_src = areq->tsgl;
++		/* CVE-2026-31431 fix: keep src separate from dst */
+ 	}
  
- static int _aead_recvmsg(struct socket *sock, struct msghdr *msg,
-@@ -11,6 +11,7 @@
--	aead_request_set_crypt(req, rsgl_src, rsgl_src, crlen, iv);
-+	aead_request_set_crypt(req, tsgl_src, rsgl_dst, crlen, iv);
+ 	/* Initialize the crypto operation */

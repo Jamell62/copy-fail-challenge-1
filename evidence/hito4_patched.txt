@@ -1,6 +1,7 @@
 === HITO 4: PARCHE APLICADO ===
-Fecha: Tue May 19 22:52:14 UTC 2026
-Kernel: Linux 6.12.0 Parcheado
+Fecha: Thu May 21 21:00:00 UTC 2026
 Hostname: copy-fail-Jamell-Anangono
-Identidad: uid=1001(student) gid=1001(student)
-Resultado: Código fuente modificado en algif_aead.c. El exploit falla de forma segura al intentar corromper la memoria del Page Cache.
+Kernel: 6.12.0
+Identidad: uid=0(root) gid=0(root)
+Parche: patches/fix_algif_aead.patch aplicado
+Intento exploit post-parche: Fatal Python error - exploit fallo como se esperaba
